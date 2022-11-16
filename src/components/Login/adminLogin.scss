@@ -1,0 +1,101 @@
+.main-container{
+    background: linear-gradient(
+-135deg
+,#c850c0,#4158d0);
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // padding: 15px;
+    width: 100%;
+    min-height: 100vh;
+
+.login-container{
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    height: 650px;
+    display: flex;
+    // justify-content: space-around;
+    .left{
+        width: 50%;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        .image{
+            width: 316px;
+        }
+    }
+    .right{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+
+    .login-title{
+        // font-family: Poppins-Bold;
+        font-size: 24px;
+        color: #333;
+        line-height: 1.2;    
+        padding-bottom: 54px;
+    }
+    .login-input{
+    // font-family: Poppins-Medium;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 290px;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    // padding: 0 30px 0 68px;
+    // box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    }
+    .login-btn{
+    // font-family: Montserrat-Bold;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 290px;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all 0.4s;
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background: #333;
+    }
+    }
+    .register-link{
+        position: absolute;
+        bottom: 15px;
+        font-size: 13px;
+    line-height: 1.5;
+    color: #666;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover{
+        color: #57b846;
+    }
+    }
+    }
+}
+}
